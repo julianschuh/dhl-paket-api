@@ -1,0 +1,12 @@
+require 'securerandom'
+require 'base64'
+require 'uri'
+require 'cgi'
+require 'net/http'
+require 'json'
+
+CLIENT_ID = "QVozbVdwYkdXY0VFUnM2MXMwWVJxaWc2Y2JHaEZQWVhSSkxN"
+SCOPE = "PARCELS%20PUSH%20LABELS%20BASIC%20ADDRESSES%20USERDATA%20PACKSTATION%20PAYMENT"
+CODE_CHALLENGE_METHOD = "S256"
+INTERFACE_KEY = "a873620de9654fa4a86c83ae8cd431bd"
+EMMI_API_VERSION = "7"
